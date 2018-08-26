@@ -1,0 +1,41 @@
+{
+  "BP Cost": 50,
+  "Base Tier": 2,
+  "Speed": 7,
+  "Attribute Modification":{
+    "Strength": 1,
+    "Agility": 1,
+    "Toughness": 1,
+    "Resolve": 1
+  },
+  "Attribute Limits":{
+    "Stength": 10,
+    "Agility": 9,
+    "Toughness": 10,
+    "Intellect": 10,
+    "Willpower": 10,
+    "Fellowship": 8,
+    "Initiative": 9,
+    "Speed": 9
+  },
+  "Other": {
+    "Angel of Death":{
+      "Description": "Space Marines add +1/2 Rank icons to any successful attack against a mob",
+      "Type": "Situational",
+      "Value Type": "Rank",
+      "Value": 0.5
+
+    },
+    "Honor the Chapter":{
+      "Description":
+        "You are subject to the orders of your chapter master, and must honour both the beliefs and traditions of your chapter."
+    },
+    "Space Marine Implants":{
+      "Description": "Space Marines do not bleed. Space Marines gain +1 bonus dice as a situational modifier to any test if the Game Master deems it appropriate for one of the 19 implants.",
+      "Status Type": "Bleeding",
+      "Status Condition": "Immune"
+    }
+  }
+
+
+}

@@ -1,0 +1,46 @@
+{
+  "BP Cost": 10,
+  "Base Tier": 1,
+  "Speed": 8,
+  "Attribute Modifications":{
+    "Agility": 1
+  },
+  "Outsider":{
+    "Short Description":
+      "+2DN to all Interaction tests with those with the Keyword <Imperium>",
+    "Crunch":[
+      {
+        "Test": "Interaction",
+        "Trigger": "DN",
+        "Value": 2
+      }
+    ]
+  },
+  "Intense Emotion":{
+    "Description": "+1DN to all Resolve tests.
+      Failing a Willpower-based test in a scene involving intense emotion grants the GM +1 Ruin",
+    "Crunch":[
+      {
+        "Test": "Resolve",
+        "Trigger": "DN",
+        "Value":1
+      },
+      {
+        "Test": "Willpower",
+        "Trigger": "Failure",
+        "Type": "Ruin",
+        "Value": 1
+      }
+    ]
+  },
+  "Attribute Limits":{
+    "Stength": 7,
+    "Agility": 12,
+    "Toughness": 7,
+    "Intellect": 10,
+    "Willpower": 12,
+    "Fellowship": 8,
+    "Initiative": 12,
+    "Speed": 10
+  }
+}

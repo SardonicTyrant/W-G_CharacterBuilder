@@ -1,0 +1,36 @@
+{
+  "BP Cost": 10,
+  "Base Tier":1,
+  "Speed": 6,
+  "Attribute Modifications":{
+    "Toughness": 1
+  },
+
+  "Attribute Limit":{
+    "Stenghth": 12,
+    "Agility": 7,
+    "Toughness": 12,
+    "Intellect": 7,
+    "Willpower": 8,
+    "Fellowship": 7,
+    "Initiative": 7,
+    "Speed": 7
+  },
+  "Other":{
+    "Outside":{
+      "Description": "+2DN to all Interaction tests with those with the Keyword <Imperium>"
+    },
+    "Orky":{
+      "Description": "+1 to all Intimidation tests",
+      "Test": "Intimidation",
+      "Bonus Type": "Icon",
+      "Value": 1
+    },
+    "Bigger is Better":{
+      "Description": "Orks calculate Influence using their Strength in place of Fellowship",
+      "Test": "Influence",
+      "Bonus Type": "Substitution",
+      "Value": "Strength"
+    }
+  }
+}

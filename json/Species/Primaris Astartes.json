@@ -1,0 +1,12 @@
+{
+  "Attribute Limit":{
+    "Strength": 12,
+    "Agility": 9,
+    "Toughness": 12,
+    "Intellect": 10,
+    "Willpower": 10,
+    "Fellowship": 8,
+    "Initiative": 9,
+    "Speed": 9
+  }
+}

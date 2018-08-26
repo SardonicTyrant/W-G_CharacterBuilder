@@ -1,0 +1,16 @@
+{
+  "BP Cost": 0,
+  "Base Tier": 1,
+  "Speed": 6,
+  "Attribute Modifications": null,
+  "Attribute Limits": {
+    "Strength": 8,
+    "Agility": 8,
+    "Toughness": 8,
+    "Intellect": 8,
+    "Willpower": 8,
+    "Fellowship": 8,
+    "Initiative": 8,
+    "Speed": 8
+  }
+}
