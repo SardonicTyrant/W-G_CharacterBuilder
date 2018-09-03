@@ -1,0 +1,29 @@
+{
+  "name": "Crusader",
+  "build point": 40,
+  "prerequisites":  {
+                      "tier": 3,
+                      "species": "Human",
+                      "attributes": {
+                                    "Initiative": 3,
+                                    "Willpower": 3
+                                  },
+                      "skills":   {
+                                    "Weapon Skill": 1,
+                                    "Scholar": 1
+                                  }
+                    },
+  "benefits":{
+    "keywords": ["Imperium", "Adeptus Ministorum"],
+
+  "influence": 1,
+  "other":{},
+  "wargear": [
+    "power sword", "storm shield", "carapace armor", "clothing (Ministorum robes)"
+  ]
+
+  }
+
+
+
+}

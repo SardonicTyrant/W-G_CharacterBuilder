@@ -1,0 +1,27 @@
+{
+  "name": "Ministorum Priest",
+  "build point": 0,
+  "prerequisites":  {
+                      "tier": 1,
+                      "species": "Human",
+                      "attributes": {
+                                    "Willpower": 3
+                                  },
+                      "skills":   {
+                                    "Scholar": 1
+                                  }
+                    },
+  "benefits":{
+    "keywords": ["Imperium", "Adeptus Ministorum"],
+
+  "influence": 1,
+  "other":{},
+  "wargear": [
+    "laspistol", "rosarius", "knife", "clothing (Ministorum robes)", "missionary kit"
+  ]
+
+  }
+
+
+
+}
