@@ -1,0 +1,8 @@
+STRENGTH = "Strength"
+TOUGHNESS = "Toughness"
+AGILITY = "Agility"
+INTELLIGENCE = "Intelligence"
+WILLPOWER = "Willpower"
+FELLOWSHIP = "Fellowship"
+INITIATIVE = "Initiative"
+SPEED = "Speed"
