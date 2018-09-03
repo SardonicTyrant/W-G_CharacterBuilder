@@ -6,7 +6,7 @@ from constants import attributes
 #           Attribute - a dictionary of the minimum required attributes
 #           Skill - a dictionary of the minimum required skills
 #           Other - a list of other required prereqs
-class prereqs:
+class Prereqs:
 
 
     def __int__(self, tier:int, species:str):
@@ -18,5 +18,3 @@ class prereqs:
 
     def get_species(self):
         return _species
-
-print(attributes.STRENGTH)
