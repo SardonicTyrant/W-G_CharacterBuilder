@@ -1,5 +1,7 @@
 import tkinter as tk
-
+import json
+import io
+import os
 class main_ui(tk.Frame):
     #self.v = tk.IntVar()
     def __init__(self):
@@ -24,14 +26,21 @@ class main_ui(tk.Frame):
         self.species_label.pack(side=tk.LEFT)
     def addSpecies(self, name:str=""):
         tk.Radiobutton(self.species_frame, text=name, value=self.count).pack()
-        self.count += 1
+        #self.count += 1
 
 def main():
     root = tk.Tk()
     #root.geometry("300x300")
     ui = main_ui()
-    ui.addSpecies("Human")
+    species_list = os.listdir("../json/Species")
+    print(species_list)
+    for species in species_list:
+        species_file = open("../json/Species/" + species)
+        species_data = json.load(species_file)
+        ui.addSpecies(species_data["name"])
+
     root.mainloop()
+
 
 if __name__ == '__main__':
     main()
