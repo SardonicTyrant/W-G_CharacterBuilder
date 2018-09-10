@@ -1,5 +1,6 @@
 from archetype_benefits import Benefits
 from archetype_prereqs import Prereqs
+
 class Archetype:
 
     def __init__(self, name:str, prereqs:Prereqs, benefits:Benefits):
